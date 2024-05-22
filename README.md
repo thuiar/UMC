@@ -100,14 +100,3 @@ If you are insterested in this work, and want to use the codes or results in thi
     numpages = {10},
 }
 ```
-```
-@inproceedings{10.1145/3503161.3547906,
-    author = {Zhang, Hanlei and Xu, Hua and Wang, Xin and Zhou, Qianrui and Zhao, Shaojie and Teng, Jiayan},
-    title = {MIntRec: A New Dataset for Multimodal Intent Recognition},
-    year = {2022},
-    doi = {10.1145/3503161.3547906},
-    booktitle = {Proceedings of the 30th ACM International Conference on Multimedia},
-    pages = {1688–1697},
-    numpages = {10},
-}
-```
