@@ -5,7 +5,7 @@ The first unsupervised multimodal clustering method for multimodal semantics dis
 
 ## Introduction
 
-This repository contains the official PyTorch implementation of the research paper Unsupervised Multimodal Clustering for Semantics Discovery in Multimodal Utterances (Accepted by ACL 2024 Main Conference, Long Paper). 
+This repository contains the official PyTorch implementation of the research paper [Unsupervised Multimodal Clustering for Semantics Discovery in Multimodal Utterances](https://arxiv.org/abs/2405.12775) (Accepted by ACL 2024 Main Conference, Long Paper). 
 
 ## Dependencies 
 
@@ -89,6 +89,14 @@ sh examples/run_umc.sh
 |          | UMC      | **24.16** | **20.31** | **33.87** | **32.49** | **27.71** |
 
 If you are insterested in this work, and want to use the codes or results in this repository, please **star** this repository and **cite** the following works:
+```
+@article{zhang2024unsupervised,
+      title={Unsupervised Multimodal Clustering for Semantics Discovery in Multimodal Utterances}, 
+      author={Hanlei Zhang and Hua Xu and Fei Long and Xin Wang and Kai Gao},
+      year={2024},
+      journal = {arXiv preprint arXiv:2405.12775},
+}
+```
 ```
 @inproceedings{10.1145/3503161.3547906,
     author = {Zhang, Hanlei and Xu, Hua and Wang, Xin and Zhou, Qianrui and Zhao, Shaojie and Teng, Jiayan},
