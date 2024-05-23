@@ -88,6 +88,8 @@ sh examples/run_umc.sh
 |          | UMC (Text) | 20.01 | 18.15 | 32.76 | 31.10 | 25.64 |
 |          | UMC      | **24.16** | **20.31** | **33.87** | **32.49** | **27.71** |
 
+## Citations
+
 If you are insterested in this work, and want to use the codes or results in this repository, please **star** this repository and **cite** the following works:
 ```
 @article{zhang2024unsupervised,
