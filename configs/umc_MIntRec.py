@@ -29,7 +29,7 @@ class Param():
                 'test_batch_size': 128,
                 'num_pretrain_epochs': 100,
                 'num_train_epochs': 100,
-                'pretrain': [False],
+                'pretrain': [True],
                 'aligned_method': 'ctc',
                 'need_aligned': False,
                 'freeze_pretrain_bert_parameters': [True],
