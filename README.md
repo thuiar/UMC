@@ -69,7 +69,7 @@ Step 1 : Download the dataset and pre-trained BERT model using the provided meth
 
 Step 2 : Modify the parameters in `configs/umc_MIntRec.py` to include the pre-training process.
 ```
-    'pretrain': [True],
+'pretrain': [True],
 ```
 step 3 :You can modify the parameters in the examples/run_umc.sh file to suit your needs as follows:
 ```
