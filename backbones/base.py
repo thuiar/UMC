@@ -21,7 +21,7 @@ def freeze_bert_parameters(model, multimodal_method):
             if "encoder.layer.11" in name or "pooler" in name:
                 param.requires_grad = True
 
-    elif multimodal_method in ['mcn', 'cmc', 'mmco']:
+    elif multimodal_method in ['mcn', 'cmc', 'umc']:
         for name, param in model.method_model.backbone.text_embedding.named_parameters():
             param.requires_grad = False
             if "encoder.layer.11" in name or "pooler" in name:
@@ -88,7 +88,7 @@ class MIA(nn.Module):
             
             return tot_loss
 
-        elif multimodal_method in ['mag_bert', 'text', 'mmco']:
+        elif multimodal_method in ['mag_bert', 'text', 'umc']:
             
             return 0.0
         

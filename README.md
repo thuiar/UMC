@@ -62,6 +62,30 @@ Run the experiments by:
 sh examples/run_umc.sh
 ```
 
+## Quick start from Pretrain
+**The following example demonstrates a complete quickstart process using the MIntRec dataset.**
+
+Step 1 : Download the dataset and pre-trained BERT model using the provided method, and place them in the `UMC/` directory.
+
+Step 2 : Modify the parameters in `configs/umc_MIntRec.py` to include the pre-training process.
+```
+    'pretrain': [True],
+```
+step 3 :You can modify the parameters in the examples/run_umc.sh file to suit your needs as follows:
+```
+--data_path 'Datasets' \  # Change dataset address/path
+
+--train \  # Include the training process
+
+--save_model \  # Specify to save the model
+
+--output_path "outputs"  # Store both pre-trained and final models
+```
+step 4 :Run the experiments by: 
+```
+sh examples/run_umc.sh
+```
+
 ## Results
 
 |          | Methods  | NMI   | ARI   | ACC   | FMI   | Avg.  |
