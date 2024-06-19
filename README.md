@@ -23,13 +23,11 @@ pip install -r requirements.txt
 ### Datasets
 - MIntRec: The first multimodal intent recognition dataset ([paper](https://dl.acm.org/doi/10.1145/3503161.3547906), [Resource](https://github.com/thuiar/MIntRec))
 - MELD-DA: A multimodal multi-party dataset for emotion recognition in conversation ([paper](https://aclanthology.org/P19-1050/), [Resource](https://github.com/declare-lab/MELD))
-- IEMOCAP-DA: The Interactive Emotional Dyadic Motion Capture database  ([paper](https://link.springer.com/article/10.1007/s10579-008-9076-6),[Resource](https://sail.usc.edu/iemocap/))
+- IEMOCAP-DA: The Interactive Emotional Dyadic Motion Capture database  ([paper](https://link.springer.com/article/10.1007/s10579-008-9076-6), [Resource](https://sail.usc.edu/iemocap/))
 
-For MELD-DA and IEMOCAP-DA, we use the well-annotated dialogue act (DA) labels from the EMOTyDA dataset ([paper](https://aclanthology.org/2020.acl-main.402/),[Resource](https://github.com/sahatulika15/EMOTyDA))
+For MELD-DA and IEMOCAP-DA, we use the well-annotated dialogue act (DA) labels from the EMOTyDA dataset ([paper](https://aclanthology.org/2020.acl-main.402/), [Resource](https://github.com/sahatulika15/EMOTyDA))
 
 ## Features Preparation
-
-Download the multimodal features from [TsinghuaCloud](https://cloud.tsinghua.edu.cn/d/fdab40446e7e44fca887/). 
 
 Download the  multimodal features from [Baidu Cloud](https://pan.baidu.com/s/1BE5TI7fyGjoEzvrD_cLXKQ?pwd=swqe ) with code: swqe .
 
