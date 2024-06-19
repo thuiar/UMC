@@ -82,7 +82,7 @@ Step 2 : Modify the parameters in `configs/umc_MIntRec.py` to include the pre-tr
 ```
 'pretrain': [True],
 ```
-step 3 :You can modify the parameters in the examples/run_umc.sh file to suit your needs as follows:
+Step 3 :You can modify the parameters in the examples/run_umc.sh file to suit your needs as follows:
 ```
 --data_path 'Datasets' \  # Change dataset address/path
 
@@ -92,7 +92,7 @@ step 3 :You can modify the parameters in the examples/run_umc.sh file to suit yo
 
 --output_path "outputs"  # Store both pre-trained and final models
 ```
-step 4 :Run the experiments by: 
+Step 4 :Run the experiments by: 
 ```
 sh examples/run_umc.sh
 ```
