@@ -12,21 +12,26 @@ This repository contains the official PyTorch implementation of the research pap
 We use anaconda to create python environment and install required libraries: 
 ```
 conda create --name python=3.8
+
+pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+
 pip install -r requirements.txt
 ```
 
 ## Datasets
 
 ### Datasets
-- MIntRec: The first multimodal intent recognition dataset ([[paper](https://dl.acm.org/doi/10.1145/3503161.3547906)], [[Resource](https://github.com/thuiar/MIntRec)])
-- MELD-DA: A multimodal multi-party dataset for emotion recognition in conversation ([[paper](https://aclanthology.org/P19-1050/) [Resource](https://github.com/declare-lab/MELD)])
-- IEMOCAP-DA: The Interactive Emotional Dyadic Motion Capture database  ([[paper](https://link.springer.com/article/10.1007/s10579-008-9076-6)] [[Resource](https://sail.usc.edu/iemocap/)])
+- MIntRec: The first multimodal intent recognition dataset ([Paper](https://dl.acm.org/doi/10.1145/3503161.3547906), [Resource](https://github.com/thuiar/MIntRec))
+- MELD-DA: A multimodal multi-party dataset for emotion recognition in conversation ([Paper](https://aclanthology.org/P19-1050/), [Resource](https://github.com/declare-lab/MELD))
+- IEMOCAP-DA: The Interactive Emotional Dyadic Motion Capture database  ([Paper](https://link.springer.com/article/10.1007/s10579-008-9076-6), [Resource](https://sail.usc.edu/iemocap/))
 
-For MELD-DA and IEMOCAP-DA, we use the well-annotated dialogue act (DA) labels from the EMOTyDA dataset ([[paper](https://aclanthology.org/2020.acl-main.402/)] [[Resource](https://github.com/sahatulika15/EMOTyDA)])
+For MELD-DA and IEMOCAP-DA, we use the well-annotated dialogue act (DA) labels from the EMOTyDA dataset ([Paper](https://aclanthology.org/2020.acl-main.402/), [Resource](https://github.com/sahatulika15/EMOTyDA))
 
 ## Features Preparation
 
-Download the multimodal features from [TsinghuaCloud](https://cloud.tsinghua.edu.cn/d/fdab40446e7e44fca887/). An example of the data structure of one dataset is as follows:  
+Download the  multimodal features from [Baidu Cloud](https://pan.baidu.com/s/1BE5TI7fyGjoEzvrD_cLXKQ?pwd=swqe ) with code: swqe .
+
+An example of the data structure of one dataset is as follows:  
 ```
 Datasets/
 ├── MIntRec/
@@ -37,6 +42,10 @@ Datasets/
 │ │ └── swin_feats.pkl
 │ └── audio_data/
 │ │ └── wavlm_feats.pkl
+├── MELD-DA/
+│ ├──..
+├── IEMOCAP-DA/
+│ ├──...
 ```
 The pre-trained bert model can be downloaded from [Baidu Cloud](https://pan.baidu.com/s/1k1zxK4xh0UyPhOU_-oPlow) with code: v8tk. 
 
@@ -69,7 +78,7 @@ Step 1 : Download the dataset and pre-trained BERT model using the provided meth
 
 Step 2 : Modify the parameters in `configs/umc_MIntRec.py` to include the pre-training process.
 ```
-    'pretrain': [True],
+'pretrain': [True],
 ```
 step 3 :You can modify the parameters in the examples/run_umc.sh file to suit your needs as follows:
 ```
