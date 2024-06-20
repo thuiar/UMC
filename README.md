@@ -11,7 +11,7 @@ This repository contains the official PyTorch implementation of the research pap
 
 We use anaconda to create python environment and install required libraries: 
 ```
-conda create --name python=3.8
+conda create --name umc python=3.8
 
 pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
 
@@ -53,7 +53,7 @@ The pre-trained bert model can be downloaded from [Baidu Cloud](https://pan.baid
 
 ## Models
 
-In this work, we propose UMC, a novel unsupervised multimodal clustering method. It introduces (1) a unique approach to contructing augmentation views for multimodal data, (2) an innovative strategy to dynamically select high-quality samples as guidance for representation learning, (3) a dual learning approach to use both high- and low-quality samples to learn friendly representations conducive to clustering. The model architecture is as follows:  
+In this work, we propose UMC, a novel unsupervised multimodal clustering method. It introduces (1) a unique approach to contructing augmentation views for multimodal data, (2) an innovative strategy to dynamically select high-quality samples as guidance for representation learning, (3) a combined learning approach to use both high- and low-quality samples to learn friendly representations conducive to clustering. The model architecture is as follows:  
 
 ![Framework](figs/framework.png "Framework")
 
