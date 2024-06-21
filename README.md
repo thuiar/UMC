@@ -29,9 +29,7 @@ For MELD-DA and IEMOCAP-DA, we use the well-annotated dialogue act (DA) labels f
 
 ## Features Preparation
 
-Download the  multimodal features from [Baidu Cloud](https://pan.baidu.com/s/1BE5TI7fyGjoEzvrD_cLXKQ?pwd=swqe ) with code: swqe .
-
-Download the  multimodal features from [Google Disk](https://drive.google.com/drive/folders/1UiSqfOD3iWNS44PK3at9M0-d-Kwdjnri?usp=sharing) .
+You can download the  multimodal features from [Baidu Cloud](https://pan.baidu.com/s/1BE5TI7fyGjoEzvrD_cLXKQ?pwd=swqe) (code: swqe) or [Google Disk](https://drive.google.com/drive/folders/1UiSqfOD3iWNS44PK3at9M0-d-Kwdjnri?usp=sharing).
 
 An example of the data structure of one dataset is as follows:  
 ```
