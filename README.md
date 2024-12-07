@@ -122,11 +122,13 @@ sh examples/run_umc.sh
 
 If you are insterested in this work, and want to use the codes or results in this repository, please **star** this repository and **cite** the following works:
 ```
-@article{zhang2024unsupervised,
-      title={Unsupervised Multimodal Clustering for Semantics Discovery in Multimodal Utterances}, 
-      author={Hanlei Zhang and Hua Xu and Fei Long and Xin Wang and Kai Gao},
-      year={2024},
-      journal = {arXiv preprint arXiv:2405.12775},
+@inproceedings{zhang-etal-2024-unsupervised,
+    title = "Unsupervised Multimodal Clustering for Semantics Discovery in Multimodal Utterances",
+    author = "Zhang, Hanlei  and Xu, Hua  and Long, Fei  and Wang, Xin  and Gao, Kai",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+    year = "2024",
+    doi = "10.18653/v1/2024.acl-long.2",
+    pages = "18--35"
 }
 ```
 ```
